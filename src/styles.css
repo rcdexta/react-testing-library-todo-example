@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+  color: #61dafb;
+  background: #2d2d2d;
+  padding: 20px;
+}
+
+h1 {
+  margin: 2px 0 15px 0;
+  text-align: center;
+}
+
+#main {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.pure-table {
+  width: 100%;
+  border: none !important;
+  margin: 20px 0px;
+}
+
+tr:hover {
+  background-color: rgb(0,0,0,0.2);
+}
+
+.pure-form .form-control {
+  width: 88%;
+}
+
+.done {
+  color: red;
+  text-decoration: line-through;
+}
+
+.pure-button {
+  margin-left: 10px;
+}
+
+.undone {
+  color: #61dafb;
+}
+
+.icon {
+  margin: 6px 10px 6px 0;
+  cursor: pointer;
+}
+
+.close {
+  color: #eee;
+}
