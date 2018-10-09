@@ -2,8 +2,10 @@
   "name": "creact-testing-library-todo-example",
   "version": "1.0.0",
   "description": "Sample Todo widget to help understand testing with react-testing-library",
+  "license": "MIT",
   "keywords": [
-    "cypress",
+    "react",
+    "react-testing-library",
     "demo"
   ],
   "main": "src/index.js",
@@ -11,20 +13,16 @@
     "prop-types": "^15.6.2",
     "react": "16.3.2",
     "react-dom": "16.3.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "2.0.4"
   },
   "devDependencies": {
-    "babel-jest": "^23.6.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
     "jest": "^23.6.0",
-    "react-test-renderer": "^16.5.2",
     "react-testing-library": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   }
 }

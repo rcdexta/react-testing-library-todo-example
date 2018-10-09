@@ -1,20 +1,20 @@
-# cypress-todo-example
-Example React App for experimenting with Cypress.io
+# react-tsting-library-todo-example
+
+Example Todo app for illustrating react-testing-library features
 
 ### Installation
 
 Follow the steps below
 
 ```bash
-$ git clone git@github.com:rcdexta/cypress-todo-example.git
-$ cd cypress-todo-example
+$ git clone git@github.com:rcdexta/react-testing-library-todo-example.git
+$ cd react-testing-library-todo-example
 $ yarn install
 ```
 
-Steps to add cypress to the flow
+To run the tests
 
 ```bash
-$ yarn add --dev cypress
-$ yarn cypress open
+$ yarn test
 ```
 

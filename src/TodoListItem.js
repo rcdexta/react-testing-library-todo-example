@@ -25,19 +25,9 @@ export default class TodoListItem extends React.Component {
     return (
       <tr data-testid={`todoItem${item.index}`}>
         <td className={todoClass}>
-          <span
-            data-testid="markAsCompleted"
-            className="glyphicon glyphicon-ok icon"
-            aria-hidden="true"
-            onClick={this.onClickDone}
-          />
-          {item.value}
-          <span
-            data-testid="markAsDeleted"
-            className="glyphicon glyphicon-remove-sign close"
-            aria-hidden="true"
-            onClick={this.onClickClose}
-          />
+          <span data-testid="markAsCompleted" className="glyphicon glyphicon-ok icon" aria-hidden="true" onClick={this.onClickDone}/>
+            {item.value}
+          <span data-testid="markAsDeleted"className="glyphicon glyphicon-remove-sign close" aria-hidden="true" onClick={this.onClickClose}/>
         </td>
       </tr>
     );
