@@ -1,4 +1,4 @@
-# react-tsting-library-todo-example
+# react-testing-library-todo-example
 
 Example Todo app for illustrating react-testing-library features
 
